@@ -102,29 +102,21 @@ header nav {
 /* ABOUT SECTION */
 /**************************/
 
-.subheading {
-  font-size: 1.6rem;
-  line-height: 1.2;
-  text-align: center;
-  margin-top: 6.8rem;
-}
-
 .section-about h2 {
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 
 .section-about h2::after {
   content: "⎯⎯";
-  display: block;
   position: absolute;
-  width: auto;
-  top: 150%;
+  top: 200%;
   left: 50%;
   color: red;
   transform: translate(-50%, -50%);
+  display: block;
 }
 
 .about-description {
@@ -151,7 +143,7 @@ header nav {
 /**************************/
 
 .section-work-info {
-  margin: 6.8rem 0;
+  margin: 3.2rem 0;
   background-color: #c3fae8;
 }
 
@@ -180,4 +172,53 @@ header nav {
 
 .work-info-box p {
   font-size: 1.2rem;
+}
+
+/**************************/
+/* SERVICES SECTION */
+/**************************/
+
+.services-text-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-text-box h3 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.services-text-box h3::after {
+  content: "⎯⎯";
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  color: red;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.service {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.service-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #66d9e8;
+}
+
+.service-description p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.service-description span {
+  line-height: 2;
 }
