@@ -11,50 +11,64 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Code World</title>
   </head>
   <body>
     <header class="header">
-      <a href="#">
-        <img class="logo" src="./assets/images/Logo Small.jpeg" alt="Logo" />
-      </a>
+      <div class="container">
+        <nav>
+          <a href="#">
+            <img
+              class="logo"
+              src="./assets/images/Logo Small.jpeg"
+              alt="Logo"
+            />
+          </a>
 
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">About</a></li>
-          <li><a href="#" class="main-nav-link">Service</a></li>
-          <li><a href="#" class="main-nav-link">Work</a></li>
-          <li><a href="#" class="main-nav-link">Blog</a></li>
-          <li><a href="#" class="main-nav-link">Contact</a></li>
-          <li>
-            <a href="#" class="main-nav-link"
-              ><ion-icon class="main-card" name="card-outline"></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a href="#" class="main-nav-link"
-              ><ion-icon class="main-card" name="search-outline"></ion-icon
-            ></a>
-          </li>
-        </ul>
-      </nav>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a href="#" class="main-nav-link">About</a></li>
+              <li><a href="#" class="main-nav-link">Service</a></li>
+              <li><a href="#" class="main-nav-link">Work</a></li>
+              <li><a href="#" class="main-nav-link">Blog</a></li>
+              <li><a href="#" class="main-nav-link">Contact</a></li>
+              <li>
+                <a href="#" class="main-nav-link"
+                  ><ion-icon class="main-card" name="card-outline"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link"
+                  ><ion-icon class="main-card" name="search-outline"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+      </div>
+
+      <section class="section-welcome">
+        <div class="container">
+          <div class="welcome-text-box">
+            <p class="welcome-description">Empowering the world.</p>
+            <h1 class="heading-primary">
+              WELCOME <br />
+              TO CODE WORLD
+            </h1>
+
+            <button class="welcome-btn">LEARN MORE</button>
+      </section>
     </header>
 
     <main>
-      <section class="section-welcome">
-        <div class="container">
-          <div class="welcome-text-box-">
-            <p class="welcome-description">
-              Empowering the world, one innovation at a time.
-            </p>
-            <h1 class="heading-primary">WELCOME TO CODE WORLD</h1>
-
-            <button class="welcome-btn">LEARN MORE</button>
-          </div>
-        </div>
-      </section>
-
       <section class="section-about">
         <div class="container">
           <p class="subheading">What we do</p>

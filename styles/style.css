@@ -1,0 +1,83 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+header {
+  background: url(../assets/images/header-bg-img.jpg);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fff;
+}
+
+.section-welcome {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.welcome-description {
+  color: #000;
+  font-size: 2.2rem;
+}
+
+.welcome-text-box h1 {
+  color: #000;
+  position: relative;
+}
+
+.welcome-text-box h1::after {
+  content: "⎯";
+  display: block;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 0.9rem;
+  position: absolute;
+}
+
+.welcome-btn {
+  margin: 4rem 0;
+  background: none;
+  border: 2px solid #000;
+  color: #000;
+  height: 3rem;
+  width: 12rem;
+  transition: all 0.3s ease;
+}
+
+.welcome-btn:hover {
+  color: #fff;
+  border: #fff;
+}
