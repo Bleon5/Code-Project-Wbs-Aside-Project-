@@ -141,7 +141,43 @@ header nav {
 }
 
 .about-img {
-  width: 22%;
+  width: 33%;
   height: 150px;
   object-fit: cover;
+}
+
+/**************************/
+/* WORK-INFO SECTION */
+/**************************/
+
+.section-work-info {
+  margin: 6.8rem 0;
+  background-color: #c3fae8;
+}
+
+.work-info-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+.work-info-box span,
+.work-info-box p {
+  color: #fff;
+}
+
+.work-info-box span {
+  font-size: 4.5rem;
+}
+
+.work-info-box p {
+  font-size: 1.2rem;
 }
