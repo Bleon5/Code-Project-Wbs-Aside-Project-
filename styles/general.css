@@ -77,6 +77,8 @@ body {
   font-size: 2rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+  position: relative;
+  margin-top: 1.5rem;
 }
 
 .subheading {
@@ -84,4 +86,14 @@ body {
   line-height: 1.2;
   text-align: center;
   margin-top: 6.8rem;
+}
+
+h3::after {
+  content: "⎯⎯";
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  color: red;
+  transform: translate(-50%, -50%);
+  display: block;
 }
