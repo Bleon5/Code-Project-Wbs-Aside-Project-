@@ -307,3 +307,112 @@ header nav {
   height: 500px;
   object-fit: cover;
 }
+
+/**************************/
+/* WHAT WE DO SECTION */
+/**************************/
+
+.section-what-we-do {
+  margin: 6.8rem 0;
+}
+
+.what-text-box {
+  margin-top: 6.8rem;
+  text-align: center;
+}
+
+.what-description {
+  text-align: center;
+  margin-top: 6.8rem;
+  font-size: 1.2rem;
+  color: #868e96;
+}
+
+.what-accordion {
+  margin: 6.8rem 0;
+  height: 100%;
+}
+
+.what-img img {
+  width: 100%;
+}
+
+.what-box {
+  width: 100%;
+  border: 2px solid #868e96;
+  margin-bottom: 2rem;
+}
+
+.first-what {
+  height: 68%;
+}
+
+.sec-what,
+.third-what {
+  height: 10%;
+}
+
+.what-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-box-body {
+  border-top: 2px solid #868e96;
+  font-size: 1.5rem;
+}
+
+.icon,
+.arr-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #66d9e8;
+}
+
+.arr-icon {
+  color: #868e96;
+}
+
+.inspiration-box {
+  background-color: #f8f9fa;
+}
+
+.inspiration-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.big-icon {
+  height: 6.8rem;
+  width: 6.8rem;
+  border: 2px solid #66d9e8;
+  padding: 1rem;
+  color: #66d9e8;
+  margin: 3.2rem 0;
+}
+
+.inp-txt {
+  font-size: 2rem;
+  font-style: italic;
+  max-width: 70ch;
+  position: relative;
+}
+
+.inp-txt h6 {
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.inp-txt h6::before {
+  content: "⎯⎯";
+  display: block;
+  top: 92%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 0.9rem;
+  color: red;
+  position: absolute;
+}
