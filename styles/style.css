@@ -260,55 +260,6 @@ header nav {
 }
 
 /**************************/
-/* UNIQUE DESIGN SECTION */
-/**************************/
-
-.section-team {
-  margin: 6.8rem 0;
-}
-
-.team-text-box {
-  margin-top: 6.8rem;
-  text-align: center;
-}
-
-.team-description {
-  text-align: center;
-  margin-top: 6.8rem;
-  font-size: 1.2rem;
-  color: #868e96;
-}
-
-.team-img-big-box {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  margin: 6.8rem 0;
-}
-
-.team-img-box {
-  text-align: center;
-}
-
-.team-img-box h5 {
-  margin-top: 2rem;
-  font-size: 1.6rem;
-  letter-spacing: 1.5px;
-}
-.team-img-box span {
-  margin-top: 1.2rem;
-  display: block;
-  font-size: 1.2rem;
-  letter-spacing: 1.5px;
-}
-
-.team-img-box img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-
-/**************************/
 /* WHAT WE DO SECTION */
 /**************************/
 
@@ -418,6 +369,55 @@ header nav {
 }
 
 /**************************/
+/* TEAM SECTION */
+/**************************/
+
+.section-team {
+  margin: 6.8rem 0;
+}
+
+.team-text-box {
+  margin-top: 6.8rem;
+  text-align: center;
+}
+
+.team-description {
+  text-align: center;
+  margin-top: 6.8rem;
+  font-size: 1.2rem;
+  color: #868e96;
+}
+
+.team-img-big-box {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin: 6.8rem 0;
+}
+
+.team-img-box {
+  text-align: center;
+}
+
+.team-img-box h5 {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+}
+.team-img-box span {
+  margin-top: 1.2rem;
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+}
+
+.team-img-box img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/**************************/
 /* LOGOS SECTION */
 /**************************/
 
@@ -431,4 +431,138 @@ header nav {
   object-fit: cover;
   border-radius: 50%;
   filter: grayscale(100%);
+}
+
+/**************************/
+/* WORK SECTION */
+/**************************/
+.work-text-box {
+  margin-top: 6.8rem;
+  text-align: center;
+}
+
+.work-description {
+  text-align: center;
+  margin-top: 6.8rem;
+  font-size: 1.2rem;
+  color: #868e96;
+}
+
+.team-images {
+  margin: 6.8rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.team-images img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.team-span-img {
+  grid-row: span 2;
+  height: 100% !important;
+}
+
+.caption-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caption-box img {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.caption-info {
+  font-size: 2rem;
+  font-style: italic;
+  max-width: 70ch;
+  position: relative;
+  line-height: 3rem;
+}
+
+.caption-info h6 {
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.caption-info h6::before {
+  content: "⎯⎯";
+  display: block;
+  top: 83%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 0.9rem;
+  color: red;
+  position: absolute;
+}
+
+/**************************/
+/* WORK SECTION */
+/**************************/
+.section-people-opinion {
+  background: url(../assets/images/vertical-black-white-shot-rocky-formation-with-clouds.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 6.8rem 0;
+}
+
+.opinion-text-box {
+  margin: 6.8rem 0;
+  text-align: center;
+}
+
+.people {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.people-img img {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.people-desc {
+  color: #000;
+}
+
+.people-desc h6 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.people-desc span {
+  font-size: 1.2rem;
+  color: #171616;
+  display: block;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.people-desc span::after {
+  content: "⎯⎯⎯⎯⎯";
+  display: block;
+  top: 200%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 0.9rem;
+  color: red;
+  position: absolute;
+}
+
+.people-desc p {
+  font-size: 1.2rem;
+  color: #000;
 }
