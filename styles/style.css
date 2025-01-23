@@ -637,3 +637,96 @@ header nav {
   color: red;
   position: absolute;
 }
+
+/**************************/
+/* FOOTER SECTION */
+/**************************/
+
+.code-world-box h4 {
+  font-size: 2.5rem;
+  height: 25%;
+}
+
+.code-world-box p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.code-world-box .followers {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.code-world-box .follow {
+  font-weight: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.code-world-box .social-icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #66d9e8;
+}
+
+footer form {
+  margin: 2rem 0;
+}
+
+footer input {
+  width: 50%;
+  border: 1px solid #8b9095;
+  padding: 0.5rem 0;
+}
+
+footer button {
+  width: 40%;
+  background-color: #66d9e8;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+.blogs {
+  height: 100%;
+}
+
+.blogs img {
+  width: 10rem;
+  display: flex;
+}
+
+.blogs h6 {
+  font-size: 1.5rem;
+}
+
+.blogs-box {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.instagram h6 {
+  font-size: 1.5rem;
+}
+.instagram-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.instagram img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.copyrights {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  margin-top: -5rem;
+}
+
+.copyrights span {
+  color: #f03e3e;
+}
