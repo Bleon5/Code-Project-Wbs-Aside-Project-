@@ -416,3 +416,19 @@ header nav {
   color: red;
   position: absolute;
 }
+
+/**************************/
+/* LOGOS SECTION */
+/**************************/
+
+.section-logos {
+  margin: 6.8rem 0;
+  background-color: #f8f9fa;
+}
+
+.logos-box img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
