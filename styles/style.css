@@ -515,7 +515,7 @@ header nav {
 }
 
 .opinion-text-box {
-  margin: 6.8rem 0;
+  padding: 6.8rem 0;
   text-align: center;
 }
 
@@ -523,6 +523,10 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.mb-big {
+  margin-bottom: 9rem;
 }
 
 .people-img img {
@@ -565,4 +569,71 @@ header nav {
 .people-desc p {
   font-size: 1.2rem;
   color: #000;
+}
+
+/**************************/
+/* BLOG SECTION */
+/**************************/
+
+.blog-text-box {
+  margin: 6.8rem 0;
+  text-align: center;
+}
+
+.blog-box-info {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 6.8rem;
+}
+
+.blog-box img {
+  width: 100%;
+}
+
+.blog-box h6 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.blog-box p {
+  font-size: 1.5rem;
+  color: #868e96;
+}
+
+.map {
+  background: url(../assets/images/vertical-black-white-shot-rocky-formation-with-clouds.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.map-icon {
+  color: #f03e3e;
+  margin-top: 5rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.map a {
+  text-decoration: none;
+}
+
+.map h3 {
+  color: #f03e3e;
+  letter-spacing: 0.2rem;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.map h3::after {
+  content: "⎯";
+  display: block;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 0.9rem;
+  color: red;
+  position: absolute;
 }
